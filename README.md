@@ -1,4 +1,4 @@
-# clonetube-react-redux
+# clonetube-react
 
-React & Redux Basics
+React Basics
 <a href="https://www.udemy.com/course/react-redux-korean/">(To Lecture)</a>
