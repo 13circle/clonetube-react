@@ -8,8 +8,8 @@
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
-    "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
-    "predeploy": "npm run build && cp ./index.html build && cp ./bundle.js build",
+    "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors && cp ./bundle.js build && cp -r ./style build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": "",

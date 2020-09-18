@@ -2,6 +2,8 @@
 bundle.js
 npm-debug.log
 .DS_Store
+/build/*
+!/build/index.html
 
 # IntelliJ
 *.iml
